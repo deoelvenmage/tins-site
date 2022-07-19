@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Make a reservation at one of our hotels!">
+    <title>Make a Reservation - Temple Inns & Suites</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+</head>
+<body id="reservation">
+    <header>
+        <div id="header-logo">
+            <a href="./"><img src="./images/logo.webp" alt="Temple Inns & Suites Logo" width="400" height="400"></a>
+        </div>
+        <section>
+            <h1>Temple Inns & Suites</h1>
+        </section>
+        <nav>
+            <ul class="navigation">
+                <li class="temple-link"><a href="./temples.html">Temples</a></li>
+                <li class="reservation-link"><a href="#">Reservation</a></li>
+                <li class="services-link"><a href="./services/">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="reservation-main">
+        <h2 id="reservation-message">Make Your Reservation!</h2>
+        <form method="get" action="./thankyou.html">
+            <fieldset>
+                <legend><h2>Personal Information</h2></legend>
+
+                <label for="firstname" class="required">First name:</label>
+                <input type="text" name="firstname" id="firstname" autofocus required>
+
+                <label for="lastname" class="required">Last name:</label>
+                <input type="text" name="lastname" id="lastname" required>
+
+                <label for="email" class="required">Email: (example@email.com)</label>
+                <input type="email" name="email" id="email" placeholder="example@email.com" required>
+
+                <label for="phone" class="required">Phone number: (555-555-5555)</label>
+                <input type="tel" name="phone" id="phone" placeholder="555-555-5555" required>
+
+                <label for="state" class="required">Home state or country:</label>
+                <input type="text" name="state" id="state" required>
+            </fieldset>
+            <fieldset>
+                <legend><h2>Reservation</h2></legend>
+
+                <label for="location" class="required">Choose a city with a temple: </label>
+                <select name="location" id="location" required>
+                    <option disabled selected value="">-</option>
+                    <option value="atlanta">Atlanta, Georgia</option>
+                    <option value="london">London, England</option>
+                    <option value="montreal">Montreal, Quebec</option>
+                    <option value="tokyo">Tokyo, Japan</option>
+                </select>
+                
+                <div id="reservation-types">
+                    <label><input type="radio" name="reservation-type" value="standard" class="required" required>Standard: Select start and end date (default is 1 day) and number of rooms</label>
+                    <label><input type="radio" name="reservation-type" value="reception">Wedding Reception: Select only start date, choose '1 room - Event Hall'</label>
+                    <label><input type="radio" name="reservation-type" value="missionary">Missionary: Select start and end date (default is 1 month), 1 room maximum</label>    
+                </div>
+                
+                <label for="start-date" class="required">Start date:</label>
+                <input type="date" name="start-date" id="start-date" required>
+
+                <label for="end-date">End date:</label>
+                <input type="date" name="end-date" id="end-date">
+
+                <label for="roomcount" class="required">Room count and type (no more than 4):</label>
+                <input type="number" id="roomcount" name="roomcount" min="1" max="4" required>
+
+                <div id="room-types" class="required">
+                    <label><input type="radio" name="room-type" value="single" class="required" required>Single - Standard 1-person room</label>
+                    <label><input type="radio" name="room-type" value="double">Double - King-sized bed with room for two, kitchenette and living room combo</label>
+                    <label><input type="radio" name="room-type" value="event-hall">Event Hall - Only for Wedding Reception</label>
+                </div>
+
+                <label for="comments">Additional accomodations/comments:</label>
+                <textarea name="comments" id="comments" rows="10"></textarea>
+            </fieldset>
+            <input class="submit-button" type="submit" value="Reserve">
+        </form>
+    </main>
+    <footer>
+        <section id="contact-info">
+            <h3>Contact:</h3>
+            <div>
+                <p>Office hours: 9:00 AM - 5:00 PM, Mon-Fri</p>
+                <p>(645) 390-8592</p>
+                <p>templeinns@busmail.com</p>
+            </div>
+            <a href="https://goo.gl/maps/cLXkgFvrrrNbgQRQ8"><em>4800 Montgomery Ln #300, Bethesda, MD 20814</em></a>
+            <div>
+                <a href="https://www.facebook.com/"><img src="./images/facebook.png" alt="Facebook Logo" class="social-media-icon" width="50" height="50"></a>
+                <a href="https://twitter.com/"><img src="./images/twitter.png" alt="Twitter Logo" class="social-media-icon" width="50" height="50"></a></div>
+        </section>
+        <p id="copyright">&copy; 2022 Temple Inns & Suites | <a href="./attribution.html">Attributions</a></p>
+        <p id="last-modified"></p>
+    </footer>
+    <script src="./js/footer.js"></script>
+</body>
+</html>

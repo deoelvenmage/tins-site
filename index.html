@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A place to stay for templegoers and travellers.">
+    <title>Temple Inns & Suites</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+</head>
+<body id="homepage">
+    <header>
+        <div id="header-logo">
+            <a href="#"><img src="./images/logo.webp" alt="Temple Inns & Suites Logo" width="400" height="400"></a>
+        </div>
+        <section>
+            <h1>Temple Inns & Suites</h1>
+        </section>
+        <nav>
+            <ul class="navigation">
+                <li class="temple-link"><a href="./temples.html">Temples</a></li>
+                <li class="reservation-link"><a href="./reservation.html">Reservation</a></li>
+                <li class="services-link"><a href="./services/">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="home-grid">
+        <div id="home-grid-hero">
+            <img src="./images/axel-bimashanda-EnGkTrHmKY4-unsplash.webp" alt="a walkway to a hotel" width="800" height="500">
+            <a href="./reservation.html"><button>Make a reservation!</button></a>
+        </div>
+        <div id="home-grid-weather">
+            <h2>Forecast</h2>
+            <div class="forecast-grid">
+                <div class="forecast" id="day1"></div>
+                <div class="forecast" id="day2"></div>
+                <div class="forecast" id="day3"></div>
+            </div>
+            <h3>Current Conditions:</h3>
+            <p><span id="temperature"></span></p>
+            <p><span id="conditions"></span></p>
+            <p>Humidity: <span id="humidity"></span>%</p> 
+        </div>
+        <div id="home-grid-spotlight">
+            <h2>Tokyo, Japan Temple</h2>
+            <img src="./images/temples/tokyo_japan_temple_lds.webp" alt="tokyo japan temple" width="800" height="500">
+            <p>Built in October of 1980</p>
+            <p>18th temple to ever be dedicated, and underwent rededication just earlier this year!</p>
+            <p>Only 6 minutes away from our Tokyo hotel!</p>
+        </div>
+    </main>
+    <footer>
+        <section id="contact-info">
+            <h3>Contact:</h3>
+            <div>
+                <p>Office hours: 9:00 AM - 5:00 PM, Mon-Fri</p>
+                <p>(645) 390-8592</p>
+                <p>templeinns@busmail.com</p>
+            </div>
+            <a href="https://goo.gl/maps/cLXkgFvrrrNbgQRQ8"><em>4800 Montgomery Ln #300, Bethesda, MD 20814</em></a>
+            <div>
+                <a href="https://www.facebook.com/"><img src="./images/facebook.png" alt="Facebook Logo" class="social-media-icon" width="50" height="50"></a>
+                <a href="https://twitter.com/"><img src="./images/twitter.png" alt="Twitter Logo" class="social-media-icon" width="50" height="50"></a>
+            </div>
+        </section>
+        <p id="copyright">&copy; 2022 Temple Inns & Suites | <a href="./attribution.html">Attributions</a></p>
+        <p id="last-modified"></p>
+    </footer>
+    <script src="./js/footer.js"></script>
+    <script src="./js/weather.js"></script>
+</body>
+</html>

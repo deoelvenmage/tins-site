@@ -1,0 +1,72 @@
+{
+    "temples" : [
+        {
+            "name" : "Atlanta, Georgia",
+            "image" : "./images/temples/atlanta_temple_lds.webp",
+            "address" : "6450 Barfield Rd NE, Sandy Springs GA 30328-4283, United States",
+            "telephone" : "(1) 770-393-3698",
+            "email" : "atlanta@temples.lds.org",
+            "services" : ["Patron housing available", 
+                        "Distribution center nearby"],
+            "status" : "Returning to normal operations",
+            "closures" : ["Monday, 26 September 2022 - Monday, 10 October 2022"],
+            "history" : ["Announced: 2 April 1980",
+                        "Groundbreaking: 7 March 1981",
+                        "Dedicated: 1 June 1983",
+                        "Rededicated: 14 November 1997, 1 May 2011"]
+        },
+        {
+            "name" : "London, England",
+            "image" : "./images/temples/london_england_temple_lds.webp",
+            "address" : "West Park Road, Newchapel Surrey, England RH7 6HW, United Kingdom",
+            "telephone" : "(44) 1342 831-400",
+            "email" : "london@temples.lds.org",
+            "services" : ["Clothing rental available", 
+                        "Patron housing available", 
+                        "Distribution center nearby"],
+            "status" : "Closed, but returning to normal operations",
+            "closures" : ["Monday, 19 September 2022 - Monday, 3 October 2022",
+                        "Friday, 23 December 2022 - Tuesday, 27 December 2022",
+                        "Friday, 30 December 2022 - Monday, 2 January 2023",
+                        "Monday, 27 March 2023 - Monday, 10 April 2023",
+                        "Monday, 2 October 2023 - Monday, 16 October 2023"],
+            "history" : ["Announced: 10 August 1953",
+                        "Groundbreaking: 27 August 1955",
+                        "Dedicated: 7 September 1958",
+                        "Rededicated: 18 October 1992"]
+        },
+        {
+            "name" : "Montreal, Quebec",
+            "image" : "./images/temples/montreal_quebec_temple_lds.webp",
+            "address" : "1450 Blvd Marie-Victorin, Longueuil QC J4G 1A4, Canada",
+            "telephone" : "(1) 450-646-5775",
+            "email" : "montreal@temples.lds.org",
+            "services" : ["Distribution center nearby"],
+            "status" : "Returning to normal operations",
+            "closures" : ["Monday, 8 August 2022 - Monday, 17 October 2022",
+                        "Monday, 2 January 2023 - Monday, 16 January 2023",
+                        "Monday, 17 July 2023 - Monday, 31 July 2023"],
+            "history" : ["Announced: 6 August 1998",
+                        "Groundbreaking: 9 April 1999",
+                        "Dedicated: 4 June 2000",
+                        "Rededicated: 22 November 2015"]
+        },
+        {
+            "name" : "Tokyo, Japan",
+            "image" : "./images/temples/tokyo_japan_temple_lds.webp",
+            "address" : "5-8-10 Minami Azabu, Minato-ku, Tokyo, 106-0047, Japan",
+            "telephone" : "(81) 3-4545-3000",
+            "email" : "tokyo@temples.lds.org",
+            "services" : ["Clothing rental available",
+                        "Patron housing available", 
+                        "Distribution center nearby"],
+            "status" : "Closed - Phase 3: Appointment only",
+            "closures" : ["Saturday, 8 October 2022",
+                        "Saturday, 8 April 2023"],
+            "history" : ["Announced: 9 August 1975",
+                        "Groundbreaking: 10 April 1978",
+                        "Dedicated: 27 October 1980",
+                        "Rededicated: 3 July 2022"]
+        }
+    ]
+}
